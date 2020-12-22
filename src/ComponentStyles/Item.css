@@ -1,0 +1,86 @@
+/* .itemCard{
+  padding: 2%;
+  flex-grow: 1;
+  flex-basis: 16%;
+  display: block;
+  height : 300px;
+  text-align:  center;
+  vertical-align: center;
+border: 5px inset rgba(28,110,164,0.05);
+border-radius: 22px;
+margin : 30px;
+}
+
+.itemCard{
+  flex: 1 16%;
+}
+
+.price {
+  align : center;
+}
+
+.itemImage img{
+  max-width: 100%;
+  border-radius: 50px
+}
+
+.ItemButton{
+  vertical-align: bottom;
+  cursor: pointer;
+  font : bold;
+  background-color: #485460;
+  color: white;
+  border: 2px solid #485460;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  padding: 16px 32px;
+  text-align: center;
+  border-radius: 22px;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-bottom: -5px;
+}
+
+.detail_btn {
+  vertical-align: bottom;
+  cursor: pointer;
+  font : bold;
+  background-color: white;
+  color: black;
+  border: 2px solid #485460;
+  font-size: 12px;
+  transition-duration: 0.4s;
+  padding: 5px 12px;
+  text-align: center;
+  border-radius: 22px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.itemInfo{
+  margin-top: auto;
+}
+
+@media (max-width: 920px) {
+  .itemCard {
+    flex: 1 21%;
+  }
+}
+ */
+
+
+.card.product .btn {
+  bottom: 1.5rem;
+  max-width: 80%;
+}
+
+.price {
+  font-size: 1.75rem;
+}
+
+@media (max-width: 768px) {
+  .card-container {
+    margin-bottom: 2rem;
+  }
+}
