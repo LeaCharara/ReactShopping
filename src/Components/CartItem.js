@@ -9,7 +9,7 @@ const CartItem = (props) => {
       <tr>
         <td className="col-sm-8 col-md-6">
         <div className="media">
-            <a className="thumbnail pull-left" href="#"> <img className="media-object" src={`/images/${props.item.filename}`} style={{width: "72px", height: "72px"}}/> </a>
+            <a className="thumbnail pull-left" href="#"> <img className="media-object" src={process.env.PUBLIC_URL +`/images/${props.item.filename}`} style={{width: "72px", height: "72px"}}/> </a>
             <div className="media-body">
                 <h4 className="media-heading"><Link to={`/Details/${props.item.id}`}>{props.item.title}</Link></h4>
             </div>
