@@ -61,7 +61,6 @@ function DetailButton(props) {
 }
 
 function Item(props) {
-  console.log(props.item)
   const [isAuthenticated] = useContext(AuthContext)
   let history = useHistory();
   const [inCartQty,setinCartQty] = useState(props.quantity)
@@ -150,7 +149,7 @@ function Item(props) {
     
     return (
        <Card style={{ width: '18rem', margin:"20px"}}>
-        <Image className="mx-auto" src={`/images/${props.item.filename}`} style={{width:120, height:120, marginTop:"10px"}} rounded/>
+        <Image className="mx-auto" src={process.env.PUBLIC_URL + `/images/${props.item.filename}`} style={{width:120, height:120, marginTop:"10px"}} rounded/>
         <Card.Body className="d-flex flex-column">
           <Card.Title className="mx-auto">{props.item.title}</Card.Title>
           <Card.Text>

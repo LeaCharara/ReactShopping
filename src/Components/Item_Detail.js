@@ -112,7 +112,7 @@ function ItemDetail(){
         </div> : 
             <div className="Container">
                 <div className="left_column">
-                    <img src={`/images/${item.filename}`}></img>
+                    <img src={process.env.PUBLIC_URL +`/images/${item.filename}`}></img>
                 </div>
                 <div className ="right_column">
                     <div className="product-description">
