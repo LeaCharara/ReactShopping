@@ -153,6 +153,9 @@ function Item(props) {
         <Card.Body className="d-flex flex-column">
           <Card.Title className="mx-auto">{props.item.title}</Card.Title>
           <Card.Text>
+             <h3 style = {{outlineStyle: "solid"}}>{props.item.price} $</h3>
+          </Card.Text>
+          <Card.Text>
             {props.item.description}
           </Card.Text>
           {inCartQty !== undefined && <p>In Cart : {inCartQty}</p> }
